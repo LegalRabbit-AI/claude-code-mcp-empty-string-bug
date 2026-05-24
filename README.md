@@ -9,6 +9,7 @@ If any param's value is an empty string, Claude Code will erase every param and 
 How to reproduce
 -----------------
 
+0. Run `npm install`
 1. Run Claude Code: `claude --model sonnet --verbose  --dangerously-skip-permissions`
 2. Use the prompt: `Invoke the greeting tool with the first name as "tanin" and the last name as an empty string`.
 3. You will observe that the tool invocation fails repeatedly even though Claude Code's intention is correct.
