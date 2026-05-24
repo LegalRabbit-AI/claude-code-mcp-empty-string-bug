@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "legalrabbit-greeting": {
+      "command": "npm",
+      "args": ["run", "stdio"]
+    }
+  }
+}
